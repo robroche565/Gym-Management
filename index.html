@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -60,25 +60,56 @@
                         </ul>
                       </li>
                     </ul>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="45" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
-                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                    </svg>
+                    <div class="prof">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class='bx bx-user-circle fs-1'></i>
+                            </a>
+                          <ul class="dropdown-menu form-wrapper dropdown-menu-end ">
+                            <h1 class="hint-text text-center"><i class='bx bx-user-circle fa-3x'></i></h1>
+                            <div class="form-group social-btn clearfix text-center">
+                              <a href="#" class="btn btn-success pull-left"><i class='bx bx-log-in'></i> Log-In</a>
+                              <a href="#" class="btn btn-secondary pull-right"><i class='bx bx-upload'></i> Sign-Up</a>
+                            </div>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </nav>
       </section>
-
-      <section id="home">
-        <div class="container text-center">
-           <div class="row justify-content-center">
-              <div class="col-md-10">
-                 <h1 class="fw-bolder fst-italic text-white display-4" ><strong>QUALITY YET <br> AFFORDABLE GYM</strong> </h1>
-                 <a href="#subscribe" class="btn btn-brand fs-3">Subscribe Now</a>
-              </div>
-           </div>
+     <section id="home">
+      <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+        <div class="carousel-indicators">
+          <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image bg-img-1 active">
+            <div class="carousel-caption">
+              <h1 class="fw-bolder fst-italic text-white display-4" ><strong>QUALITY YET <br> AFFORDABLE GYM</strong></h1>
+              <p><a class="btn btn-brand fs-6" href="#">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-2">
+            <div class="carousel-caption">
+              <h1 class="fw-bolder fst-italic text-white display-4" ><strong>NUMEROUS <br> GYM EQUIPMENTS</strong></h1>
+              <p><a class="btn btn-brand fs-6" href="#">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-3">
+
+            <div class="carousel-caption">
+              <h1 class="fw-bolder fst-italic text-white display-4" ><strong>A GOOD PLACE <br> TO WORKOUT</strong></h1>
+              <p><a class="btn btn-brand fs-6" href="#">Learn More</a></p>
+            </div>
+          </div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+      </div>
      </section>
+
+
      <br> <br>
    <section id="services">
     <div class="container">
@@ -134,9 +165,9 @@
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem incidunt sunt molestiae!</p>
     <div class="hline"></div>
  </div>
-  <div class="container"> 
+  <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
           <img src="images/pexels-samer-daboul-1212845 (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -149,7 +180,7 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
           <img src="images/pexels-kai-pilger-996329 (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -162,7 +193,7 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
           <img src="images/pexels-steve-johnson-1000084 (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -223,9 +254,9 @@
                <div class="col-md-2">
                   <h5 class="title-sm">Contact</h5>
                   <div class="footer-links">
-                     <p class="mb">San Jose, Zamboanga City</p>
-                     <p class="mb-">8(800)316-06-42</p>
-                     <p class="mb">hello@yourdomain.com</p>
+                     <p class="mb text-white">San Jose, Zamboanga City</p>
+                     <p class="mb text-white">8(800)316-06-42</p>
+                     <p class="mb text-white">hello@yourdomain.com</p>
                   </div>
                </div>
             </div>
