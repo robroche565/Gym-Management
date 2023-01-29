@@ -185,4 +185,11 @@ box-sizing: border-box;}
 	.card {
 		margin-bottom: 30px;
 	}
+   #services .icon-box {
+      margin: auto;
+   }
+   #services .container .row .col-lg-4{
+      text-align: center;
+   }
 }
+
