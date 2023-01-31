@@ -104,7 +104,10 @@ box-sizing: border-box;}
    color: black;
  }
 
- 
+ .my_acc_edit {
+   margin-top: 6em;
+   padding-bottom: 5%;
+ }
 
 #sell{
     background-color: rgba(0, 0, 0, 0.832);
@@ -135,7 +138,7 @@ box-sizing: border-box;}
 
 .footer-top {
     background-color: #A73535;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 30px;
  }
  
